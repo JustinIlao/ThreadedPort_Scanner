@@ -1,0 +1,153 @@
+0	Reserved	In programming APIs (not in communication between hosts), requests a system-allocated (dynamic) port
+1				TCP Port Service Multiplexer (TCPMUX). Historic. Both TCP and UDP have been  to TCPMUX by IANA, but by design only TCP is specified.
+2				compressnet (Management Utility)
+3				compressnet (Compression Process)
+5				Remote Job Entry was historically using socket 5 in its old socket form, while MIB PIM has identified it as TCP/5 and IANA has  both TCP and UDP 5 to it.
+7				Echo Protocol
+9				Discard Protocol or Unofficial	Wake-on-LAN
+11				Active Users (systat service)
+13				Daytime Protocol
+15	Unofficial	No Previously netstat service
+17				Quote of the Day (QOTD)
+18				Message Send Protocol
+19				Character Generator Protocol (CHARGEN)
+20				File Transfer Protocol (FTP) data transfer
+21				File Transfer Protocol (FTP) control (command)
+22				Secure Shell (SSH), secure logins, file transfers (scp, sftp) and port forwarding
+23				Telnet protocol—unencrypted text communications
+25				Simple Mail Transfer Protocol (SMTP), used for email routing between mail servers
+27				nsw-fe (NSW User System FE)
+28	Unofficial	Palo Alto Networks' Panorama High Availability (HA) sync encrypted port.
+29				msg-icp (MSG ICP)
+31				msg-auth (MSG Authentication)
+33				dsp (Display Support Protocol)
+37				Time Protocol
+38				rap (Route Access Protocol)
+39				rlp (Resource Location Protocol)
+41				graphics (Graphics)
+42				Host Name Server Protocol
+43				WHOIS protocol
+44				mpm-flags (MPM FLAGS Protocol)
+45				mpm (Message Processing Module [recv])
+46				mpm-snd (MPM [default send])
+47	Reserved			
+48				auditd (Digital Audit Daemon)
+49				TACACS Login Host protocol. TACACS+, still in draft which is an improved but distinct version of TACACS, only uses TCP 49.
+50				re-mail-ck (Remote Mail Checking Protocol)
+51	Reserved	Historically used for Interface Message Processor logical address management, entry has been removed by IANA on 2013-05-25
+52				Xerox Network Systems (XNS) Time Protocol. Despite this port being  by IANA, the service is meant to work on SPP (ancestor of IPX/SPX), instead of TCP/IP.
+53				Domain Name System (DNS)
+54				Xerox Network Systems (XNS) Clearinghouse (Name Server). Despite this port being  by IANA, the service is meant to work on SPP (ancestor of IPX/SPX), instead of TCP/IP.
+55				isi-gl (ISI Graphics Language)
+56				Xerox Network Systems (XNS) Authentication Protocol. Despite this port being  by IANA, the service is meant to work on SPP (ancestor of IPX/SPX), instead of TCP/IP.
+58				Xerox Network Systems (XNS) Mail. Despite this port being  by IANA, the service is meant to work on SPP (ancestor of IPX/SPX), instead of TCP/IP.
+61	Reserved	Historically  to the NIFTP-Based Mail protocol, but was never documented in the related IEN. The port number entry was removed from IANA's registry on 2017-05-18.
+62				acas (ACA Services)
+63				whoispp (whois++)
+64				covia (Communications Integrator (CI))
+65				tacacs-ds (TACACS-Database Service)
+66				sql-net (Oracle SQL*NET)
+67				Bootstrap Protocol (BOOTP) server; also used by Dynamic Host Configuration Protocol (DHCP)
+68				Bootstrap Protocol (BOOTP) client; also used by Dynamic Host Configuration Protocol (DHCP)
+69				Trivial File Transfer Protocol (TFTP)
+70				Gopher protocol
+71–74			NETRJS protocol
+76				deos (Distributed External Object Store)
+78				vettcp (vettcp)
+79				Finger protocol
+80				Hypertext Transfer Protocol (HTTP) uses TCP in versions 1.x and 2. HTTP/3 uses QUIC, a transport protocol on top of UDP.
+81	Unofficial	TorPark onion routing[verification needed]
+82				xfer (XFER Utility)
+82	Unofficial	TorPark control[verification needed]
+83				mit-ml-dev (MIT ML Device)
+84				ctf (Common Trace Facility)
+85				mit-ml-dev (MIT ML Device)
+86				mfcobol (Micro Focus Cobol)
+88				Kerberos authentication system
+89				su-mit-tg (SU/MIT Telnet Gateway)
+90				dnsix (DNSIX Security Attribute Token Map)
+90	Unofficial	PointCast (dotcom)
+91				mit-dov (MIT Dover Spooler)
+92				npp (Network Printing Protocol)
+93				dcp (Device Control Protocol)
+94				objcall (Tivoli Object Dispatcher)
+95				SUPDUP, terminal-independent remote login
+96				dixie (DIXIE Protocol Specification)
+97				swift-rvf (Swift Remote Virtual File Protocol)
+98				tacnews (TAC News)
+99				metagram (Metagram Relay)
+101				NIC host name
+102				ISO Transport Service Access Point (TSAP) Class 0 protocol;
+104				Digital Imaging and Communications in Medicine (DICOM; also port 11112)
+105				CCSO Nameserver
+106	Unofficial	macOS Server, (macOS) password server
+107				Remote User Telnet Service (RTelnet)
+108				IBM Systems Network Architecture (SNA) gateway access server
+109				Post Office Protocol, version 2 (POP2)
+110				Post Office Protocol, version 3 (POP3)
+111				Open Network Computing Remote Procedure Call (ONC RPC, sometimes referred to as Sun RPC)
+113				Ident, authentication service/identification protocol, used by IRC servers to identify users or Authentication Service (auth), the predecessor to identification protocol. Used to determine a user's identity of a particular TCP connection.
+115				Simple File Transfer Protocol
+117				UUCP Mapping Project (path service)[citation needed]
+118				Structured Query Language (SQL) Services[jargon]
+119				Network News Transfer Protocol (NNTP), retrieval of newsgroup messages
+123				Network Time Protocol (NTP), used for time synchronization
+126				Formerly Unisys Unitary Login, renamed by Unisys to NXEdit. Used by Unisys Programmer's Workbench for Clearpath MCP, an IDE for Unisys MCP software development
+135				DCE endpoint resolution or Microsoft EPMAP (End Point Mapper), also known as DCE/RPC Locator service, used to remotely manage services including DHCP server, DNS server and WINS. Also used by DCOM
+137				NetBIOS Name Service, used for name registration and resolution
+138				NetBIOS Datagram Service
+139				NetBIOS Session Service
+143				Internet Message Access Protocol (IMAP), management of electronic mail messages on a server
+151				HEMS
+152				Background File Transfer Program (BFTP)[importance?]
+153				Simple Gateway Monitoring Protocol (SGMP), a protocol for remote inspection and alteration of gateway management information
+156				Structured Query Language (SQL) Service[jargon]
+158				Distributed Mail System Protocol (DMSP, sometimes referred to as Pcmail)[importance?]
+161				Simple Network Management Protocol (SNMP)[citation needed]
+162				Simple Network Management Protocol Trap (SNMPTRAP)[citation needed]
+165				Xerox
+169				SEND
+170				Network PostScript print server
+177				X Display Manager Control Protocol (XDMCP), used for remote logins to an X Display Manager server[self-published source]
+179				Border Gateway Protocol (BGP), used to exchange routing and reachability information among autonomous systems (AS) on the Internet
+180				ris
+194				Internet Relay Chat (IRC)
+199				SNMP Unix Multiplexer (SMUX)
+201				AppleTalk Routing Maintenance
+209				Quick Mail Transfer Protocol[self-published source]
+210				ANSI Z39.50
+213				Internetwork Packet Exchange (IPX)
+218				Message posting protocol (MPP)
+220				Internet Message Access Protocol (IMAP), version 3
+225–241	Reserved			
+249–255	Reserved			
+259				Efficient Short Remote Operations (ESRO)
+262				Arcisdms
+264				Border Gateway Multicast Protocol (BGMP)
+280				http-mgmt
+300	Unofficial	ThinLinc Web Access, Spartan protocol 
+308				Novastor Online Backup
+311				macOS Server Admin (officially AppleShare IP Web administration)
+312	Unofficial	macOS Xsan administration
+318				PKIX Time Stamp Protocol (TSP)
+319				Precision Time Protocol (PTP) event messages
+320				Precision Time Protocol (PTP) general messages
+350				Mapping of Airline Traffic over Internet Protocol (MATIP) type A
+351				MATIP type B
+356				cloanto-net-1 (used by Cloanto Amiga Explorer and VMs)
+366				On-Demand Mail Relay (ODMR)
+369				Rpc2portmap
+370				codaauth2, Coda authentication server or securecast1, outgoing packets to NAI's SecureCast serversAs of 2000
+371				ClearCase albd
+376				Amiga Envoy Network Inquiry Protocol
+383				HP data alarm manager
+384				A Remote Network Server System
+387				AURP (AppleTalk Update-based Routing Protocol)
+388				Unidata LDM near real-time data distribution protocol[self-published source][self-published source]
+389				Lightweight Directory Access Protocol (LDAP)
+399				Digital Equipment Corporation DECnet+ (Phase V) over TCP/IP (RFC1859)
+401				Uninterruptible power supply (UPS)
+427				Service Location Protocol (SLP)
+433				NNTP, part of Network News Transfer Protocol
+434				Mobile IP Agent (RFC 5944)
+443				Hypertext Transfer Protocol Secure (HTTPS) uses TCP in versions 1.x and 2. HTTP/3 uses QUIC, a transport protocol on top of UDP.
