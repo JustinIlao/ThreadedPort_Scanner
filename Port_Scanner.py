@@ -40,7 +40,7 @@ def main():
     filename = "Names.txt"
     threads = []
 
-    for port in range(80, 444):  # Considering ports from 0 to 443
+    for port in range(0, 444):  # Considering ports from 0 to 443
         thread = threading.Thread(target=scan_port, args=(prompt, port, filename))
         thread.start()
         threads.append(thread)
